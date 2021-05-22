@@ -1,4 +1,4 @@
-setTimeout(function(){
+
     var close = document.querySelector(".close");
 
     close.addEventListener("click", function(){
@@ -6,5 +6,5 @@ setTimeout(function(){
     
         no1.classList.add("bg1")
     })
-}, 5000)
+
 
