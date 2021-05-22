@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  font-family: "Montserrat", sans-serif;
+  /* position: fixed; */
+  height: 100%;
+  width: 100%;
+  background-color: #2d4059;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  color: #2d4059;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 70%;
+  background-color: #ffffff;
+  padding: 40px 100px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.child h1{
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.child h2{
+    font-size: 1.7em;
+    margin-bottom: 30px;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.2em;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 500px){
+   .child{
+       width: 90%;
+       padding: 20px;
+   } 
+
+   .child h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.child h2{
+    font-size: 1.3em;
+    margin-bottom: 30px;
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 7px;
+}
+}
